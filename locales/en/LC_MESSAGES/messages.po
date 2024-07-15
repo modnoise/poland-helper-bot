@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-06-10 18:34+0300\n"
+"POT-Creation-Date: 2024-07-15 22:18+0300\n"
 "PO-Revision-Date: 2023-08-03 00:50+0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: tgbot/dialogs/user_dialogs/ai_helper/getters.py:24
+#: tgbot/dialogs/user_dialogs/ai_helper/getters.py:10
 msgid ""
 "Poland Helper 24/7 🕑 An artificial intelligence-based assistant that will"
 " help in most life situations in Poland. 🤖🇵🇱\n"
@@ -26,55 +26,41 @@ msgid ""
 "Choose the right assistant ⤵️"
 msgstr ""
 
-#: tgbot/dialogs/user_dialogs/ai_helper/getters.py:28
+#: tgbot/dialogs/user_dialogs/ai_helper/getters.py:14
 msgid "Adaptation and relocation agent 🌍"
 msgstr ""
 
-#: tgbot/dialogs/user_dialogs/ai_helper/getters.py:29
+#: tgbot/dialogs/user_dialogs/ai_helper/getters.py:15
 msgid "Student assistant 🎓"
 msgstr ""
 
-#: tgbot/dialogs/user_dialogs/ai_helper/getters.py:30
+#: tgbot/dialogs/user_dialogs/ai_helper/getters.py:16
 msgid "Psychologist 🧠"
 msgstr ""
 
-#: tgbot/dialogs/user_dialogs/ai_helper/getters.py:31
-msgid "Translator of Polish 👩‍🏫 (Coming soon)"
+#: tgbot/dialogs/user_dialogs/ai_helper/getters.py:17
+msgid "Translator of Polish 👩‍🏫"
 msgstr ""
 
-#: tgbot/dialogs/user_dialogs/ai_helper/getters.py:32
-msgid "Travel guide 🗺️ (Coming soon)"
-msgstr ""
-
-#: tgbot/dialogs/user_dialogs/ai_helper/getters.py:33
-msgid "Legal Assistant ⚖️ (Coming soon)"
-msgstr ""
-
+#: tgbot/dialogs/user_dialogs/ai_helper/getters.py:23
 #: tgbot/dialogs/user_dialogs/ai_helper/getters.py:39
-#: tgbot/dialogs/user_dialogs/ai_helper/getters.py:60
-#: tgbot/dialogs/user_dialogs/ai_helper/getters.py:76
-#: tgbot/dialogs/user_dialogs/ai_helper/getters.py:104
+#: tgbot/dialogs/user_dialogs/ai_helper/getters.py:55
+#: tgbot/dialogs/user_dialogs/ai_helper/getters.py:81
 #: tgbot/dialogs/user_dialogs/connect_hub/getters.py:29
 #: tgbot/dialogs/user_dialogs/connect_hub/getters.py:40
 #: tgbot/dialogs/user_dialogs/connect_hub/getters.py:56
-#: tgbot/dialogs/user_dialogs/main_menu/getters.py:62
-#: tgbot/dialogs/user_dialogs/main_menu/getters.py:83
-#: tgbot/dialogs/user_dialogs/payment/getters.py:34
-#: tgbot/dialogs/user_dialogs/payment/getters.py:49
-#: tgbot/dialogs/user_dialogs/payment/getters.py:67
-#: tgbot/dialogs/user_dialogs/payment/getters.py:86
-#: tgbot/dialogs/user_dialogs/payment/getters.py:95
-#: tgbot/dialogs/user_dialogs/payment/getters.py:131
+#: tgbot/dialogs/user_dialogs/main_menu/getters.py:46
+#: tgbot/dialogs/user_dialogs/main_menu/getters.py:65
 #: tgbot/dialogs/user_dialogs/support/getters.py:11
 #: tgbot/keyboards/inline/deny_tools_access_keyboard.py:15
 msgid "Back ↩️"
 msgstr ""
 
-#: tgbot/dialogs/user_dialogs/ai_helper/getters.py:40
+#: tgbot/dialogs/user_dialogs/ai_helper/getters.py:24
 msgid "Read More ℹ️"
 msgstr ""
 
-#: tgbot/dialogs/user_dialogs/ai_helper/getters.py:48
+#: tgbot/dialogs/user_dialogs/ai_helper/getters.py:31
 msgid ""
 "👩‍🏫 <b>Polish teacher and translator</b>\n"
 "With his help you can easily communicate in Polish, quickly translate "
@@ -88,14 +74,6 @@ msgid ""
 "and answers to your questions so that you can deepen your understanding "
 "of the study material and achieve outstanding results.\n"
 "\n"
-" ⚖️ <b>Legal Assistant</b>\n"
-"He will help you deal with the difficulties of the legalization process, "
-"such as obtaining residency status, a Pole card or a visa, as well as "
-"explain to you other issues related to the legal aspects of living and "
-"legalizing in Poland. He will also help you in writing official letters "
-"to local authorities. And will even prepare you for the exams for a Pole "
-"card or a permanent residence permit.\n"
-"\n"
 "🌍 <b>Adaptation and Relocation Agent</b>\n"
 "For those who are moving to Poland, he is ready to be your adaptation "
 "advisor, providing information on how to deal with everyday tasks - "
@@ -107,16 +85,10 @@ msgid ""
 "🧠 <b>Psychologist</b>\n"
 "The doors are always open to your thoughts and emotions. You can discuss "
 "your feelings, learn how to manage stress and find support in difficult "
-"moments. He is here to make sure you don't feel alone.\n"
-"\n"
-"🗺️ <b>Travel Guide</b>\n"
-"For travelers looking for unique adventures in Poland, it will help you "
-"find the most interesting routes, secret places and valuable tips. Travel"
-" without borders and discover the real culture and nature of this amazing"
-" country."
+"moments. He is here to make sure you don't feel alone."
 msgstr ""
 
-#: tgbot/dialogs/user_dialogs/ai_helper/getters.py:71
+#: tgbot/dialogs/user_dialogs/ai_helper/getters.py:50
 msgid ""
 "<b>Examples of questions:</b>\n"
 "<code>{conversation_example}</code>\n"
@@ -124,11 +96,11 @@ msgid ""
 "<b>Write your question to ⤵️</b>"
 msgstr ""
 
-#: tgbot/dialogs/user_dialogs/ai_helper/getters.py:77
+#: tgbot/dialogs/user_dialogs/ai_helper/getters.py:56
 msgid "How to use ❔"
 msgstr ""
 
-#: tgbot/dialogs/user_dialogs/ai_helper/getters.py:90
+#: tgbot/dialogs/user_dialogs/ai_helper/getters.py:69
 msgid ""
 "<b>Important!</b>\n"
 "To get the best results from your assistant, we recommend that you "
@@ -137,9 +109,6 @@ msgid ""
 "\n"
 "<b>For example:</b>\n"
 "\"{conversation_example}\"\n"
-"\n"
-"<b>Read tips on how to use:</b>\n"
-"➡️ {tips}\n"
 "\n"
 "💡 If you change the topic of your question, we recommend clearing the "
 "chat so that the previous information you provided does not confuse the "
@@ -234,146 +203,34 @@ msgid ""
 "further cooperation."
 msgstr ""
 
-#: tgbot/dialogs/user_dialogs/main_menu/getters.py:30
+#: tgbot/dialogs/user_dialogs/main_menu/getters.py:23
 msgid ""
 "<b>👤 {full_name}</b>\n"
 "\n"
-"Subscription: <b>{subscription_name}</b>\n"
 "Username: {username}\n"
 "Telegram ID: <code>{telegram_id}</code>\n"
 "\n"
-"Available queries to AI: <code>{available_queries}</code>\n"
-"\n"
-"Users who use the FWC: <code>{total_users}</code>\n"
-"👉 <a href='{main_channel}'>Main channel</a>"
+"Available queries to AI: <code>{available_queries}</code>"
 msgstr ""
 
-#: tgbot/dialogs/user_dialogs/main_menu/getters.py:63
-msgid "⭐️ Buy Subscription ⭐️"
-msgstr ""
-
-#: tgbot/dialogs/user_dialogs/main_menu/getters.py:65
+#: tgbot/dialogs/user_dialogs/main_menu/getters.py:47
 msgid "Submit Question 💬"
 msgstr ""
 
-#: tgbot/dialogs/user_dialogs/main_menu/getters.py:66
+#: tgbot/dialogs/user_dialogs/main_menu/getters.py:48
 msgid "Find Expert 👤"
 msgstr ""
 
-#: tgbot/dialogs/user_dialogs/main_menu/getters.py:67
+#: tgbot/dialogs/user_dialogs/main_menu/getters.py:49
 msgid "Feedback 📝"
 msgstr ""
 
-#: tgbot/dialogs/user_dialogs/main_menu/getters.py:76
+#: tgbot/dialogs/user_dialogs/main_menu/getters.py:58
 msgid ""
 "This section is closed in status: DEMO\n"
 "To use the tool, you must change your status to Active.\n"
 "\n"
 "You can activate the status ✅ in your Profile 👤 ⤵️"
-msgstr ""
-
-#: tgbot/dialogs/user_dialogs/payment/getters.py:15
-msgid ""
-"To activate the status you need to perform 2 simple actions:\n"
-"1. Make a mandatory one-time payment of <b>35€</b>.\n"
-"2. Agree to our rules of mutual aid.\n"
-"\n"
-"<b>What do you get?</b>\n"
-"You get <b>active</b> status for life\n"
-"- 100 questions <b>Helper Poland</b>\n"
-"- Endless requests for specialist searches on <b>Connect Hub</b>\n"
-"- Opportunity to send your profile to <b>Connect Hub</b> to find clients."
-"\n"
-"- Access to <b>Life Library</b>\n"
-"- <b>Checklist - First Steps to Moving to Poland</b>\n"
-"- <b>VIP</b> support\n"
-"\n"
-"💡 The database of answers and experts is constantly being replenished.\n"
-"\n"
-"<b>More about the project and tools</b> ⤵️\n"
-"👉 <a href='{foreigner_wisdom_center_link}'>Foreigner's Wisdom Center in "
-"Poland</a>"
-msgstr ""
-
-#: tgbot/dialogs/user_dialogs/payment/getters.py:36
-msgid "Pay 💲"
-msgstr ""
-
-#: tgbot/dialogs/user_dialogs/payment/getters.py:41
-msgid "Choose a payment method:"
-msgstr ""
-
-#: tgbot/dialogs/user_dialogs/payment/getters.py:45
-msgid "Quick payment"
-msgstr ""
-
-#: tgbot/dialogs/user_dialogs/payment/getters.py:46
-msgid "Polish zloty (Blik) 🇵🇱"
-msgstr ""
-
-#: tgbot/dialogs/user_dialogs/payment/getters.py:47
-msgid "Cryptocurrency 🪙"
-msgstr ""
-
-#: tgbot/dialogs/user_dialogs/payment/getters.py:48
-msgid "Ukrainian card 🇺🇦"
-msgstr ""
-
-#: tgbot/dialogs/user_dialogs/payment/getters.py:56
-msgid ""
-"📒 To top up via BLIK, <b>make a transfer to:</b> "
-"<code>{blik_number}</code>\n"
-"💬 After payment <b>send a receipt</b> for crediting the funds\n"
-"\n"
-"⚠️ Minimum amount for recharge: <b>{price}zł</b>"
-msgstr ""
-
-#: tgbot/dialogs/user_dialogs/payment/getters.py:65
-#: tgbot/dialogs/user_dialogs/payment/getters.py:84
-msgid "Send receipt"
-msgstr ""
-
-#: tgbot/dialogs/user_dialogs/payment/getters.py:66
-msgid "Get Blik number"
-msgstr ""
-
-#: tgbot/dialogs/user_dialogs/payment/getters.py:74
-msgid ""
-"📒 To top up the balance via Ukrainian card, <b>make a transfer to:</b> "
-"<code>{ukrainian_card_number}</code>\n"
-"💬 After payment <b>send a receipt</b> for crediting the funds\n"
-"\n"
-"⚠️ Minimum recharge amount: <b>{price} UAH</b>"
-msgstr ""
-
-#: tgbot/dialogs/user_dialogs/payment/getters.py:85
-msgid "Get Ukrainian card number"
-msgstr ""
-
-#: tgbot/dialogs/user_dialogs/payment/getters.py:91
-msgid "Send a receipt in photo or file format"
-msgstr ""
-
-#: tgbot/dialogs/user_dialogs/payment/getters.py:111
-msgid "Send this receipt for verification?"
-msgstr ""
-
-#: tgbot/dialogs/user_dialogs/payment/getters.py:120
-msgid "💱 Choose a cryptocurrency:"
-msgstr ""
-
-#: tgbot/dialogs/user_dialogs/payment/selected.py:36
-#: tgbot/dialogs/user_dialogs/payment/selected.py:65
-msgid ""
-"🤖 <b>Generating the payment link...</b>\n"
-"⌛ <i>The process may take up to 1 minute</i>"
-msgstr ""
-
-#: tgbot/dialogs/user_dialogs/payment/selected.py:58
-#: tgbot/dialogs/user_dialogs/payment/selected.py:84
-#: tgbot/handlers/user/consultation/utils.py:95
-#: tgbot/handlers/user/payment/handler.py:53
-msgid "Oops. Something went wrong, try again later."
 msgstr ""
 
 #: tgbot/dialogs/user_dialogs/support/getters.py:6
@@ -416,13 +273,13 @@ msgstr ""
 msgid "Write your question to ⤵️"
 msgstr ""
 
-#: tgbot/handlers/user/consultation/utils.py:60
+#: tgbot/handlers/user/consultation/utils.py:59
 msgid ""
 "<b>⚠️ You have exceeded the message limit.</b>\n"
 "<i>For more details, you can check your profile.</i>"
 msgstr ""
 
-#: tgbot/handlers/user/consultation/utils.py:67
+#: tgbot/handlers/user/consultation/utils.py:66
 msgid ""
 "We're glad you're using our Demo subscription! Your current plan allows "
 "you to send up to <b>20</b> messages.\n"
@@ -432,11 +289,15 @@ msgid ""
 "upgrade process."
 msgstr ""
 
-#: tgbot/handlers/user/consultation/utils.py:134
+#: tgbot/handlers/user/consultation/utils.py:94
+msgid "Oops. Something went wrong, try again later."
+msgstr ""
+
+#: tgbot/handlers/user/consultation/utils.py:133
 msgid "Loading..."
 msgstr ""
 
-#: tgbot/handlers/user/language/handler.py:42
+#: tgbot/handlers/user/language/handler.py:40
 msgid ""
 "👌 <b>language is selected.</b>\n"
 "\n"
@@ -449,88 +310,6 @@ msgstr ""
 
 #: tgbot/handlers/user/language/utils.py:22
 msgid "Please enter this code for verification"
-msgstr ""
-
-#: tgbot/handlers/user/payment/handler.py:19
-msgid "⌛️ Search for payment..."
-msgstr ""
-
-#: tgbot/handlers/user/payment/handler.py:29
-msgid "🤔 You have not yet made a payment"
-msgstr ""
-
-#: tgbot/handlers/user/payment/handler.py:32
-msgid "🫤 The payment was partially paid"
-msgstr ""
-
-#: tgbot/handlers/user/payment/handler.py:35
-msgid "😔 Payment was canceled"
-msgstr ""
-
-#: tgbot/handlers/user/payment/handler.py:43
-msgid ""
-"We're excited to inform you that your payment has been successfully "
-"processed! Your subscription is now active, and you can enjoy all the "
-"benefits it offers.\n"
-"\n"
-"For more details about your subscription, you can use the /profile "
-"command.\n"
-"\n"
-"Thank you for choosing our service! If you have any questions or need "
-"assistance, feel free to reach out /support."
-msgstr ""
-
-#: tgbot/handlers/user/rules/utils.py:9
-msgid ""
-"<b>Rules for using the CWF bot - the Center for the Wisdom of the "
-"Foreigner</b>\n"
-"\n"
-"Thank you for choosing our bot! To ensure a pleasant and productive user "
-"experience, we suggest following the following rules:\n"
-"\n"
-"1. Respect and tolerance:Please express your opinions and questions in a "
-"polite and respectful manner. The distribution of offensive, hateful or "
-"discriminatory content is prohibited.\n"
-"\n"
-"2. Use of information:The information provided by the bot is intended for"
-" education and support. Please do not use it for illegal actions or "
-"harmful purposes.\n"
-"\n"
-"3. Confidentiality:Please do not transmit personal, financial or other "
-"sensitive information through the bot. We recommend that you follow our "
-"privacy policy.\n"
-"\n"
-"4. Payment and cancellation:Payment for the services of access to the CWF"
-" tools is mandatory and non-refundable. Please be sure to check the "
-"information on prices and terms before confirming the payment.\n"
-"\n"
-"5. Intellectual property:Please respect intellectual property rights such"
-" as copyrights, patents, and trademarks when using information from the "
-"bot.\n"
-"\n"
-"6. Spamming and overuse:Please avoid sending spam or excessive messages "
-"that may disturb other users.\n"
-"\n"
-"7. Liability:You are responsible for your actions and use of the "
-"information provided by the bot. We are not responsible for the "
-"consequences of using this information.\n"
-"\n"
-"8. Changes to the rules:We may update these rules from time to time. "
-"Please review them periodically to familiarize yourself with the latest "
-"changes.\n"
-"\n"
-"9. Feedback:We welcome your feedback and suggestions on how to improve "
-"the bot and CWF services.\n"
-"\n"
-"Thank you for following these rules and for your activity in using the "
-"CWF bot - the Center for the Wisdom of the Foreigner. May your experience"
-" be productive, positive and useful!"
-msgstr ""
-
-#: tgbot/handlers/user/start/handler.py:61
-msgid ""
-"You received a bonus:\n"
-"<b>+{query_quantity}</b> questions for HelperPoland"
 msgstr ""
 
 #: tgbot/keyboards/inline/accept_rules_keyboard.py:10
@@ -1061,5 +840,305 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Subscription to the bot"
+#~ msgstr ""
+
+#~ msgid "Translator of Polish 👩‍🏫 (Coming soon)"
+#~ msgstr ""
+
+#~ msgid "Travel guide 🗺️ (Coming soon)"
+#~ msgstr ""
+
+#~ msgid "Legal Assistant ⚖️ (Coming soon)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "👩‍🏫 <b>Polish teacher and translator</b>\n"
+#~ "With his help you can easily "
+#~ "communicate in Polish, quickly translate "
+#~ "texts from any language into Polish "
+#~ "and vice versa. He will help you"
+#~ " learn Polish, correct mistakes with "
+#~ "rule explanations and support you at "
+#~ "every stage of language acquisition.\n"
+#~ "\n"
+#~ "📘 <b>Student Assistant</b>\n"
+#~ "Thanks to it, you will achieve "
+#~ "great success in your studies. He "
+#~ "will provide you with explanations of"
+#~ " complex topics, supplementary materials "
+#~ "and answers to your questions so "
+#~ "that you can deepen your understanding"
+#~ " of the study material and achieve"
+#~ " outstanding results.\n"
+#~ "\n"
+#~ " ⚖️ <b>Legal Assistant</b>\n"
+#~ "He will help you deal with the "
+#~ "difficulties of the legalization process, "
+#~ "such as obtaining residency status, a"
+#~ " Pole card or a visa, as well"
+#~ " as explain to you other issues "
+#~ "related to the legal aspects of "
+#~ "living and legalizing in Poland. He "
+#~ "will also help you in writing "
+#~ "official letters to local authorities. "
+#~ "And will even prepare you for the"
+#~ " exams for a Pole card or a "
+#~ "permanent residence permit.\n"
+#~ "\n"
+#~ "🌍 <b>Adaptation and Relocation Agent</b>\n"
+#~ "For those who are moving to "
+#~ "Poland, he is ready to be your "
+#~ "adaptation advisor, providing information on"
+#~ " how to deal with everyday tasks "
+#~ "- starting with questions on finding "
+#~ "accommodation, finding a job, using "
+#~ "public transportation and others. He "
+#~ "will help you with finding specific "
+#~ "information, resources or services in "
+#~ "Poland, simplifying the whole process "
+#~ "and allowing you to focus on your"
+#~ " goals and dreams.\n"
+#~ "\n"
+#~ "🧠 <b>Psychologist</b>\n"
+#~ "The doors are always open to your"
+#~ " thoughts and emotions. You can "
+#~ "discuss your feelings, learn how to "
+#~ "manage stress and find support in "
+#~ "difficult moments. He is here to "
+#~ "make sure you don't feel alone.\n"
+#~ "\n"
+#~ "🗺️ <b>Travel Guide</b>\n"
+#~ "For travelers looking for unique "
+#~ "adventures in Poland, it will help "
+#~ "you find the most interesting routes,"
+#~ " secret places and valuable tips. "
+#~ "Travel without borders and discover the"
+#~ " real culture and nature of this "
+#~ "amazing country."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "<b>Important!</b>\n"
+#~ "To get the best results from your"
+#~ " assistant, we recommend that you "
+#~ "formulate your questions clearly and "
+#~ "specifically. Avoid asking general questions."
+#~ "\n"
+#~ "\n"
+#~ "<b>For example:</b>\n"
+#~ "\"{conversation_example}\"\n"
+#~ "\n"
+#~ "<b>Read tips on how to use:</b>\n"
+#~ "➡️ {tips}\n"
+#~ "\n"
+#~ "💡 If you change the topic of "
+#~ "your question, we recommend clearing the"
+#~ " chat so that the previous "
+#~ "information you provided does not "
+#~ "confuse the whole context\n"
+#~ "\n"
+#~ "To send a question, click <b>\"BACK\"</b>"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "<b>👤 {full_name}</b>\n"
+#~ "\n"
+#~ "Subscription: <b>{subscription_name}</b>\n"
+#~ "Username: {username}\n"
+#~ "Telegram ID: <code>{telegram_id}</code>\n"
+#~ "\n"
+#~ "Available queries to AI: <code>{available_queries}</code>\n"
+#~ "\n"
+#~ "Users who use the FWC: <code>{total_users}</code>\n"
+#~ "👉 <a href='{main_channel}'>Main channel</a>"
+#~ msgstr ""
+
+#~ msgid "⭐️ Buy Subscription ⭐️"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To activate the status you need to perform 2 simple actions:\n"
+#~ "1. Make a mandatory one-time payment of <b>35€</b>.\n"
+#~ "2. Agree to our rules of mutual aid.\n"
+#~ "\n"
+#~ "<b>What do you get?</b>\n"
+#~ "You get <b>active</b> status for life\n"
+#~ "- 100 questions <b>Helper Poland</b>\n"
+#~ "- Endless requests for specialist searches on <b>Connect Hub</b>\n"
+#~ "- Opportunity to send your profile "
+#~ "to <b>Connect Hub</b> to find clients."
+#~ "\n"
+#~ "- Access to <b>Life Library</b>\n"
+#~ "- <b>Checklist - First Steps to Moving to Poland</b>\n"
+#~ "- <b>VIP</b> support\n"
+#~ "\n"
+#~ "💡 The database of answers and "
+#~ "experts is constantly being replenished.\n"
+#~ ""
+#~ "\n"
+#~ "<b>More about the project and tools</b> ⤵️\n"
+#~ "👉 <a href='{foreigner_wisdom_center_link}'>Foreigner's "
+#~ "Wisdom Center in Poland</a>"
+#~ msgstr ""
+
+#~ msgid "Pay 💲"
+#~ msgstr ""
+
+#~ msgid "Choose a payment method:"
+#~ msgstr ""
+
+#~ msgid "Quick payment"
+#~ msgstr ""
+
+#~ msgid "Polish zloty (Blik) 🇵🇱"
+#~ msgstr ""
+
+#~ msgid "Cryptocurrency 🪙"
+#~ msgstr ""
+
+#~ msgid "Ukrainian card 🇺🇦"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "📒 To top up via BLIK, <b>make "
+#~ "a transfer to:</b> <code>{blik_number}</code>\n"
+#~ ""
+#~ "💬 After payment <b>send a receipt</b> for crediting the funds\n"
+#~ "\n"
+#~ "⚠️ Minimum amount for recharge: <b>{price}zł</b>"
+#~ msgstr ""
+
+#~ msgid "Send receipt"
+#~ msgstr ""
+
+#~ msgid "Get Blik number"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "📒 To top up the balance via "
+#~ "Ukrainian card, <b>make a transfer "
+#~ "to:</b> <code>{ukrainian_card_number}</code>\n"
+#~ "💬 After payment <b>send a receipt</b> for crediting the funds\n"
+#~ "\n"
+#~ "⚠️ Minimum recharge amount: <b>{price} UAH</b>"
+#~ msgstr ""
+
+#~ msgid "Get Ukrainian card number"
+#~ msgstr ""
+
+#~ msgid "Send a receipt in photo or file format"
+#~ msgstr ""
+
+#~ msgid "Send this receipt for verification?"
+#~ msgstr ""
+
+#~ msgid "💱 Choose a cryptocurrency:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "🤖 <b>Generating the payment link...</b>\n"
+#~ "⌛ <i>The process may take up to 1 minute</i>"
+#~ msgstr ""
+
+#~ msgid "⌛️ Search for payment..."
+#~ msgstr ""
+
+#~ msgid "🤔 You have not yet made a payment"
+#~ msgstr ""
+
+#~ msgid "🫤 The payment was partially paid"
+#~ msgstr ""
+
+#~ msgid "😔 Payment was canceled"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "We're excited to inform you that "
+#~ "your payment has been successfully "
+#~ "processed! Your subscription is now "
+#~ "active, and you can enjoy all the"
+#~ " benefits it offers.\n"
+#~ "\n"
+#~ "For more details about your "
+#~ "subscription, you can use the /profile"
+#~ " command.\n"
+#~ "\n"
+#~ "Thank you for choosing our service! "
+#~ "If you have any questions or need"
+#~ " assistance, feel free to reach out"
+#~ " /support."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "<b>Rules for using the CWF bot -"
+#~ " the Center for the Wisdom of "
+#~ "the Foreigner</b>\n"
+#~ "\n"
+#~ "Thank you for choosing our bot! To"
+#~ " ensure a pleasant and productive "
+#~ "user experience, we suggest following "
+#~ "the following rules:\n"
+#~ "\n"
+#~ "1. Respect and tolerance:Please express "
+#~ "your opinions and questions in a "
+#~ "polite and respectful manner. The "
+#~ "distribution of offensive, hateful or "
+#~ "discriminatory content is prohibited.\n"
+#~ "\n"
+#~ "2. Use of information:The information "
+#~ "provided by the bot is intended "
+#~ "for education and support. Please do "
+#~ "not use it for illegal actions or"
+#~ " harmful purposes.\n"
+#~ "\n"
+#~ "3. Confidentiality:Please do not transmit "
+#~ "personal, financial or other sensitive "
+#~ "information through the bot. We "
+#~ "recommend that you follow our privacy"
+#~ " policy.\n"
+#~ "\n"
+#~ "4. Payment and cancellation:Payment for "
+#~ "the services of access to the CWF"
+#~ " tools is mandatory and non-"
+#~ "refundable. Please be sure to check "
+#~ "the information on prices and terms "
+#~ "before confirming the payment.\n"
+#~ "\n"
+#~ "5. Intellectual property:Please respect "
+#~ "intellectual property rights such as "
+#~ "copyrights, patents, and trademarks when "
+#~ "using information from the bot.\n"
+#~ "\n"
+#~ "6. Spamming and overuse:Please avoid "
+#~ "sending spam or excessive messages that"
+#~ " may disturb other users.\n"
+#~ "\n"
+#~ "7. Liability:You are responsible for "
+#~ "your actions and use of the "
+#~ "information provided by the bot. We "
+#~ "are not responsible for the consequences"
+#~ " of using this information.\n"
+#~ "\n"
+#~ "8. Changes to the rules:We may "
+#~ "update these rules from time to "
+#~ "time. Please review them periodically to"
+#~ " familiarize yourself with the latest "
+#~ "changes.\n"
+#~ "\n"
+#~ "9. Feedback:We welcome your feedback and"
+#~ " suggestions on how to improve the"
+#~ " bot and CWF services.\n"
+#~ "\n"
+#~ "Thank you for following these rules "
+#~ "and for your activity in using the"
+#~ " CWF bot - the Center for the"
+#~ " Wisdom of the Foreigner. May your"
+#~ " experience be productive, positive and "
+#~ "useful!"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You received a bonus:\n"
+#~ "<b>+{query_quantity}</b> questions for HelperPoland"
 #~ msgstr ""
 

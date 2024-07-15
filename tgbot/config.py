@@ -134,48 +134,13 @@ class RedisConfig:
 @dataclass
 class Miscellaneous:
     openai_api_key: str
-    cryptocloud_api_key: str
 
     @staticmethod
     def from_env(env: Env):
         openai_api_key = env.str("OPENAI_API_KEY")
-        cryptocloud_api_key = env.str("CRYPTOCLOUD_API_KEY")
 
         return Miscellaneous(
             openai_api_key,
-            cryptocloud_api_key
-        )
-
-
-@dataclass
-class WebForPay:
-    merchant_secret_key: str
-    merchant_account: str
-    server_callback_url: str
-
-    @staticmethod
-    def from_env(env: Env):
-        merchant_secret_key = env.str("MERCHANT_SECRET_KEY")
-        merchant_account = env.str("MERCHANT_ACCOUNT")
-        server_callback_url = env.str("SERVER_CALLBACK_URL")
-
-        return WebForPay(
-            merchant_secret_key,
-            merchant_account,
-            server_callback_url
-        )
-
-
-@dataclass
-class Payment:
-    webforpay: WebForPay
-
-    @staticmethod
-    def from_env(env: Env):
-        webforpay = WebForPay.from_env(env)
-
-        return Payment(
-            webforpay
         )
 
 
@@ -200,7 +165,6 @@ class Config:
 
     tg_bot: TgBot
     misc: Miscellaneous
-    payment: Payment
     db: Optional[DbConfig] = None
     redis: Optional[RedisConfig] = None
 
@@ -223,5 +187,4 @@ def load_config(path: str = None) -> Config:
         db=DbConfig.from_env(env),
         redis=RedisConfig.from_env(env),
         misc=Miscellaneous.from_env(env),
-        payment=Payment.from_env(env),
     )
