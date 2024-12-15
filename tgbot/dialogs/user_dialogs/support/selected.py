@@ -36,7 +36,7 @@ async def on_confirm(call: CallbackQuery, widget: Button, manager: DialogManager
 
     try:
         await bot.send_message(
-            chat_id=-4124710410,
+            chat_id=-1002439035920,
             text=f"{question}\n\n{prefix}"
         )
     except Exception as e:

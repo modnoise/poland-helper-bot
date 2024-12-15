@@ -44,7 +44,7 @@ async def on_confirmation_click(call: CallbackQuery, widget: Button, manager: Di
 
     try:
         await bot.send_message(
-            chat_id=-4124710410,
+            chat_id=-1002439035920,
             text=f"<b>Запит на експерта</b> 🕵️‍♂️🔍\n\n"
                  f"{request}\n\n"
                  f"{prefix}"
@@ -69,7 +69,7 @@ async def on_questionnaire_confirmation_click(call: CallbackQuery, widget: Butto
 
     try:
         await bot.send_message(
-            chat_id=-4124710410,
+            chat_id=-1002439035920,
             text=f"<b>Нова анкета Експерта</b> 📝\n\n"
                  f"{questionnaire}\n\n"
                  f"{prefix}"
