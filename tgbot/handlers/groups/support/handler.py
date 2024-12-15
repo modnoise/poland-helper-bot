@@ -6,7 +6,7 @@ from aiogram.types import Message
 support_router = Router()
 
 
-@support_router.message(F.reply_to_message.from_user.id == 7069311426)
+@support_router.message(F.reply_to_message.from_user.id == -1002439035920)
 async def start(message: Message, bot: Bot):
     pattern = r"#ID\d+"
     if message.reply_to_message.text:
